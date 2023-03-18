@@ -1,6 +1,7 @@
 import Modal from "./Modal";
 
 const PortfolioModal = ({ close, open, projectData }) => {
+  console.log(projectData);
   return (
     <Modal close={close} open={open}>
       <div className="portfolio_popup_details">

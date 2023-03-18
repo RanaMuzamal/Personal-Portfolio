@@ -25,10 +25,10 @@ const Home = ({ activeWithBtn }) => {
               options={{
                 strings: [
                   "Software Engineer | React JS | Next JS | Redux | Tailwind",
-                  "Software Engineer | ",
-                  "React JS | ",
-                  "Next JS | ",
-                  "Redux |",
+                  "Software Engineer",
+                  "React JS",
+                  "Next JS ",
+                  "Redux",
                   "Tailwind",
                 ],
                 autoStart: true,

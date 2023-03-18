@@ -11,7 +11,7 @@ const Portfolio = () => {
       title: "ShareYF",
       description:
         "SHAREYF is a Full Stack Social Media Application where users can express feelings by posting image.",
-      imageUrl: "/img/portfolio/shareyf.png",
+      imageUrl: "img/portfolio/shareyf.png",
       demoUrl: "https://shareyf.vercel.app/",
       technologies: [
         "ReactJS",
@@ -29,7 +29,7 @@ const Portfolio = () => {
       title: "PixelCraft",
       description:
         "PixelCraft is a useful tool for dynamic generate pixel grid. ased on user input's width and height, also candownload generated pixel grid",
-      imageUrl: "/img/portfolio/pixelcraft.png",
+      imageUrl: "img/portfolio/pixelcraft.png",
       demoUrl: "https://covid019-tracker.netlify.app/",
       technologies: [
         "HTML5",
@@ -40,20 +40,28 @@ const Portfolio = () => {
       ],
     },
     {
+      title: "CryptoPulse",
+      description:
+        "This application is used to manage the income and expenses of the user.User just need to enter transaction name and amount it will generates income and expenses. ",
+      imageUrl: "img/portfolio/cryptopulse.png",
+      demoUrl: "https://covid019-tracker.netlify.app/",
+      technologies: ["HTML5", "CSS", "JavaScript", "ReactJS", "Coin Stat API"],
+    },
+    {
       title: "Hoobank Landing Page",
       description:
-        "This application is a portfolio banking site.It includes all the necessary sections that a business site can have ",
-      imageUrl: "/img/portfolio/hoobank.png",
+        "A portfolio banking site showcases a bank's financial products and services, including account information, loans, credit cards, and investments, providing a comprehensive overview of the bank's offerings.",
+      imageUrl: "img/portfolio/hoobank.png",
       demoUrl: "https://covid019-tracker.netlify.app/",
       technologies: ["HTML5", "CSS", "JavaScript", "ReactJS", "Tailwind  CSS"],
     },
     {
-      title: "ExpenseEase",
+      title: "Edufolio",
       description:
-        "This application is used to manage the income and expenses of the user.User just need to enter transaction name and amount it will generates income and expenses. ",
-      imageUrl: "/img/portfolio/expenseease.png",
+        "This is a versatile portfolio site that can be used not only for showcasing academic achievements but also for offering courses. ",
+      imageUrl: "img/portfolio/edufolio.png",
       demoUrl: "https://covid019-tracker.netlify.app/",
-      technologies: ["HTML5", "CSS", "JavaScript", "ReactJS", "Context API"],
+      technologies: ["HTML5", "CSS", "JavaScript"],
     },
   ];
 
@@ -78,7 +86,7 @@ const Portfolio = () => {
                 <div className="swiper-wrapper">
                   {projects.map((project, index) => {
                     return (
-                      <div>
+                      <div key={index}>
                         <SwiperSlide className="swiper-slide">
                           <div className="list_inner">
                             <div className="image">

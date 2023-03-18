@@ -152,7 +152,7 @@ const Contact = () => {
                       value={message}
                     />
                   </div>
-                  <div className="edrea_tm_button">
+                  <div className="list_inner ">
                     <input className="a" type="submit" value="Submit Message" />
                   </div>
                   {/* If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  */}
