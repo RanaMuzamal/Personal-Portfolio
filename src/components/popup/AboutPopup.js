@@ -339,10 +339,9 @@ const AboutPopup = ({ open, close, aboutData }) => {
                     <div className="list_inner">
                       <div className="text">
                         <p>
-                          Passionate Frontend Engineer dedicated to creating
-                          innovative and visually stunning user interfaces,
-                          constantly pushing boundaries to enhance the user
-                          experiencere doing!.
+                          Backend Developer committed to building
+                          high-performance applications that deliver exceptional
+                          user experiences.
                         </p>
                       </div>
                       <div className="details">
@@ -359,7 +358,9 @@ const AboutPopup = ({ open, close, aboutData }) => {
                         </div>
                         <div className="info">
                           <h3>M Yousaf</h3>
-                          <span>FAST API | Python | NodeJS</span>
+                          <span>
+                            Backend Developer | FAST API | Python | NodeJS
+                          </span>
                         </div>
                       </div>
                     </div>
