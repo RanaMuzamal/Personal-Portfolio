@@ -290,13 +290,13 @@ const AboutPopup = ({ open, close, aboutData }) => {
                       <div className="details">
                         <div className="image">
                           <img
-                            src="img/about/about.jpg"
+                            src="img/team/asad.png"
                             alt=""
                             style={{ borderRadius: "50px" }}
                           />
                           <div
                             className="main"
-                            data-img-url="img/about/about.jpg"
+                            data-img-url="img/team/asad.png"
                           />
                         </div>
                         <div className="info">
@@ -319,18 +319,47 @@ const AboutPopup = ({ open, close, aboutData }) => {
                       <div className="details">
                         <div className="image">
                           <img
-                            src="img/about/about.jpg"
+                            src="img/team/akil.png"
                             alt=""
                             style={{ borderRadius: "50px" }}
                           />
                           <div
                             className="main"
-                            data-img-url="img/about/about.jpg"
+                            data-img-url="img/team/akil.png"
                           />
                         </div>
                         <div className="info">
                           <h3>M Akil</h3>
                           <span>Frontend Engineer | ReactJS</span>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="list_inner">
+                      <div className="text">
+                        <p>
+                          Passionate Frontend Engineer dedicated to creating
+                          innovative and visually stunning user interfaces,
+                          constantly pushing boundaries to enhance the user
+                          experiencere doing!.
+                        </p>
+                      </div>
+                      <div className="details">
+                        <div className="image">
+                          <img
+                            src="img/team/akil.png"
+                            alt=""
+                            style={{ borderRadius: "50px" }}
+                          />
+                          <div
+                            className="main"
+                            data-img-url="img/team/akil.png"
+                          />
+                        </div>
+                        <div className="info">
+                          <h3>M Yousaf</h3>
+                          <span>FAST API | Python | NodeJS</span>
                         </div>
                       </div>
                     </div>

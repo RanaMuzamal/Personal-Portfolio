@@ -91,6 +91,16 @@ const Contact = () => {
                     </span>
                   </div>
                 </li>
+                <li>
+                  <div className="list_inner">
+                    <i className="icon-twitter-2" />
+                    <span>
+                      <a href="https://twitter.com/RanaMuz10988803/">
+                        Rana Muzamil
+                      </a>
+                    </span>
+                  </div>
+                </li>
               </ul>
             </div>
             <div className="right">
