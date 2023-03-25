@@ -5,14 +5,15 @@ import PortfolioModal from "./popup/PortfolioModal";
 
 const Portfolio = () => {
   const [modal, setModal] = useState(false);
-  const [projectData, setprojectData] = useState({});
+  const [projectData, setprojectData] = useState([]);
   const projects = [
     {
       title: "ShareYF",
       description:
         "SHAREYF is a Full Stack Social Media Application where users can express feelings by posting image.",
-      imageUrl: "img/portfolio/shareyf.png",
+      imageUrl: "/img/portfolio/shareyf.png",
       demoUrl: "https://shareyf.vercel.app/",
+      slug: "shareyf",
       technologies: [
         "ReactJS",
         "React Router DOM",
@@ -23,45 +24,85 @@ const Portfolio = () => {
         "JWT for Authentication",
         "ExpressJS",
         "MongoDB",
+        ,
+        "",
       ],
     },
     {
       title: "PixelCraft",
       description:
         "PixelCraft is a useful tool for dynamic generate pixel grid. ased on user input's width and height, also candownload generated pixel grid",
-      imageUrl: "img/portfolio/pixelcraft.png",
+      imageUrl: "/img/portfolio/pixelcraft.png",
       demoUrl: "https://covid019-tracker.netlify.app/",
+      slug: "pixel-craft",
       technologies: [
         "HTML5",
         "CSS",
         "JavaScript",
         "ReactJS",
         "State Management",
+        ,
+        "",
+      ],
+    },
+    {
+      title: "ArtiGenius",
+      description:
+        "ArtiGenius is a cutting-edge image generator tool that utilizes OpenAI API to generate high-quality images based on input data . ArtiGenius makes it easy to create stunning and realistic images that accurately capture the intended meaning.",
+      imageUrl: "/img/portfolio/artigenius.png",
+      demoUrl: "https://arti-genius.vercel.app/",
+      slug: "artigenius",
+      technologies: [
+        "HTML5",
+        "CSS",
+        "JavaScript",
+        "ReactJS",
+        "Tailwind CSS",
+        "OpenAI API",
+        ,
+        "",
       ],
     },
     {
       title: "CryptoPulse",
       description:
         "This application is used to manage the income and expenses of the user.User just need to enter transaction name and amount it will generates income and expenses. ",
-      imageUrl: "img/portfolio/cryptopulse.png",
+      imageUrl: "/img/portfolio/cryptopulse.png",
       demoUrl: "https://covid019-tracker.netlify.app/",
-      technologies: ["HTML5", "CSS", "JavaScript", "ReactJS", "Coin Stat API"],
+      slug: "cryptopulse",
+      technologies: [
+        "HTML5",
+        "CSS",
+        "JavaScript",
+        "ReactJS",
+        "Coin Stat API",
+        "",
+      ],
     },
     {
       title: "Hoobank Landing Page",
       description:
         "A portfolio banking site showcases a bank's financial products and services, including account information, loans, credit cards, and investments, providing a comprehensive overview of the bank's offerings.",
       imageUrl: "img/portfolio/hoobank.png",
-      demoUrl: "https://covid019-tracker.netlify.app/",
-      technologies: ["HTML5", "CSS", "JavaScript", "ReactJS", "Tailwind  CSS"],
+      demoUrl: "https://hoobank-react-website.vercel.app/",
+      slug: "hoobank",
+      technologies: [
+        "HTML5",
+        "CSS",
+        "JavaScript",
+        "ReactJS",
+        "Tailwind  CSS",
+        "",
+      ],
     },
     {
       title: "Edufolio",
       description:
         "This is a versatile portfolio site that can be used not only for showcasing academic achievements but also for offering courses. ",
-      imageUrl: "img/portfolio/edufolio.png",
-      demoUrl: "https://covid019-tracker.netlify.app/",
-      technologies: ["HTML5", "CSS", "JavaScript"],
+      imageUrl: "/img/portfolio/edufolio.png",
+      demoUrl: "https://edufolio.vercel.app/",
+      slug: "edufolio",
+      technologies: ["HTML5", "CSS", "JavaScript", ""],
     },
   ];
 

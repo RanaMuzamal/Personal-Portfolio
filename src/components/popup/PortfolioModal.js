@@ -1,13 +1,15 @@
 import Modal from "./Modal";
 
 const PortfolioModal = ({ close, open, projectData }) => {
-  console.log(projectData);
+  console.log(projectData.imageUrl);
   return (
     <Modal close={close} open={open}>
       <div className="portfolio_popup_details">
         <div className="top_image">
-          <img src={projectData.imageUrl} alt="" />
-          <div className="main" data-img-url={projectData.imageUrl} />
+          <div
+            className="main"
+            style={{ backgroundImage: `url(${projectData.imageUrl})` }}
+          />
         </div>
         <div className="portfolio_main_title">
           <h3>{projectData.title}</h3>
@@ -18,14 +20,14 @@ const PortfolioModal = ({ close, open, projectData }) => {
         </div>
 
         <div className="text">{projectData.description}</div>
-        {/* <div>
+        <div>
           <h3>Technologies</h3>
           <ul style={{ paddingLeft: "40px" }}>
-            {projectData.technologies.map((skill) => (
-              <li>{skill}</li>
+            {projectData.technologies?.map((skill, index) => (
+              <li key={index}>{skill}</li>
             ))}
           </ul>
-        </div> */}
+        </div>
       </div>
     </Modal>
   );

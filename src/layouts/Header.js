@@ -7,6 +7,13 @@ const Header = () => {
 
   const activeNav = (value) => (value == nav ? "active" : "");
 
+  const handleClick = (value, event) => {
+    const navValue = value.replace("#", "");
+    changeNav(navValue);
+    window.history.pushState(null, null, navValue);
+    event.preventDefault();
+  };
+
   return (
     <div className="edrea_tm_header">
       <div className="header_inner">
@@ -21,22 +28,38 @@ const Header = () => {
               <a href="/">Home</a>
             </li>
             <li className={activeNav("about")}>
-              <a href="#about" onClick={() => changeNav("about")}>
+              <a
+                href="/about"
+                className={activeNav("about")}
+                onClick={(event) => handleClick("about", event)}
+              >
                 About
               </a>
             </li>
             <li className={activeNav("portfolio")}>
-              <a href="#portfolio" onClick={() => changeNav("portfolio")}>
+              <a
+                href="/portfolio"
+                className={activeNav("portfolio")}
+                onClick={(event) => handleClick("portfolio", event)}
+              >
                 Portfolio
               </a>
             </li>
             <li className={activeNav("news")}>
-              <a href="#news" onClick={() => changeNav("news")}>
+              <a
+                href="/news"
+                className={activeNav("news")}
+                onClick={(event) => handleClick("news", event)}
+              >
                 News
               </a>
             </li>
             <li className={activeNav("contact")}>
-              <a href="#contact" onClick={() => changeNav("contact")}>
+              <a
+                href="/contact"
+                className={activeNav("contact")}
+                onClick={(event) => handleClick("contact", event)}
+              >
                 Contact
               </a>
             </li>
