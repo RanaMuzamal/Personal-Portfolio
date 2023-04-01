@@ -101,6 +101,14 @@ const Contact = () => {
                     </span>
                   </div>
                 </li>
+                <li>
+                  <div className="list_inner">
+                    <i className="icon-github-circled-alt2" />
+                    <span>
+                      <a href="https://github.com/RanaMuzamal">Rana Muzamil</a>
+                    </span>
+                  </div>
+                </li>
               </ul>
             </div>
             <div className="right">

@@ -347,13 +347,13 @@ const AboutPopup = ({ open, close, aboutData }) => {
                       <div className="details">
                         <div className="image">
                           <img
-                            src="img/team/akil.png"
+                            src="img/team/yousaf.jpg"
                             alt=""
                             style={{ borderRadius: "50px" }}
                           />
                           <div
                             className="main"
-                            data-img-url="img/team/akil.png"
+                            data-img-url="img/team/yousag.jpg"
                           />
                         </div>
                         <div className="info">

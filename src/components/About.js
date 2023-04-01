@@ -10,10 +10,11 @@ const aboutData = {
   phn: "+92 320 096 23 99",
   email: "muzamilrana149@gmail.com",
   serviceLists: [
-    "Website Development",
-    "Digital Experience",
-    "Content Marketing",
-    "Social Media Design",
+    "Full Stack web Application Development",
+    "E-Commerce Application Development",
+    "Custom Web Development Solutions",
+    "Single Page Application Development",
+    "Website Optimization and Maintenance",
   ],
   skills: {
     programming: [
@@ -61,17 +62,17 @@ const aboutData = {
     {
       name: "M Asad",
       position: "PHP Laraval/MERN",
-      image: "img/about/about.jpg",
+      image: "img/news/asad.png",
     },
     {
-      name: "Akil",
+      name: "M Akil",
       position: "PHP Laraval/MERN",
-      image: "img/about/about.jpg",
+      image: "img/news/akil.png",
     },
     {
-      name: "Yousaf",
+      name: "MYousaf",
       position: "PHP Laraval/MERN",
-      image: "img/about/about.jpg",
+      image: "img/team/yousaf.jpg",
     },
   ],
 };
