@@ -33,7 +33,7 @@ const Portfolio = () => {
       description:
         "PixelCraft is a useful tool for dynamic generate pixel grid. ased on user input's width and height, also candownload generated pixel grid",
       imageUrl: "/img/portfolio/pixelcraft.png",
-      demoUrl: "https://covid019-tracker.netlify.app/",
+      demoUrl: "https://pixel-craft-nu.vercel.app/",
       slug: "pixel-craft",
       technologies: [
         "HTML5",
@@ -68,7 +68,7 @@ const Portfolio = () => {
       description:
         "This application is used to manage the income and expenses of the user.User just need to enter transaction name and amount it will generates income and expenses. ",
       imageUrl: "/img/portfolio/cryptopulse.png",
-      demoUrl: "https://covid019-tracker.netlify.app/",
+      demoUrl: "https://crypto-pulse-ten.vercel.app/",
       slug: "cryptopulse",
       technologies: [
         "HTML5",
